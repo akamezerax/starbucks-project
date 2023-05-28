@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="icon" href="./assets/img/icon-starbucks.png" type="icon/x-image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;900&display=swap" rel="stylesheet">
+    <title>Starbucks Coffee Company</title>
+</head>
+
+<body>
+
+    <div class="circle"></div>
+
+    <img class="logo" src="./assets/img/Starbucks-logo.png" alt="starbucks logo">
+
+    <div class="content">
+
+        <div class="text-box">
+            <h2>It's not just coffee<br>
+                It's <span>Starbucks</span></h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti impedit totam quaerat assumenda maxime
+                nam consequatur sint at quae earum voluptates, magnam sequi hic iste ipsa est obcaecati, vitae
+                perferendis.</p>
+            <button>Learn more</button>
+
+        </div>
+
+        <div class="vitrine-image">
+            <img class="starbucks" src="./assets/img/image1.png" alt="coffe">
+        </div>
+    </div>
+
+    <div class="cardapio">
+        <img class="botao-cardapio" src="./assets/img/thumb1.png" alt="coffe option one"
+            onclick="imageReplace('./assets/img/image1.png'); colorReplace('#450000')">
+        <img class="botao-cardapio" src="./assets/img/thumb2.png" alt="coffe option two" 
+            onclick="imageReplace('./assets/img/image2.png'); colorReplace('#E59866')">
+        <img class="botao-cardapio" src="./assets/img/thumb3.png" alt="coffe option three"
+            onclick="imageReplace('./assets/img/image3.png'); colorReplace('#D16F19')">
+    </div>
+</body>
+
+<script src="./assets/scripts.js">
+
+</script>
+
+</html>
